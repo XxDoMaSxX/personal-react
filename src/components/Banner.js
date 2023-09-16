@@ -80,8 +80,11 @@ export const Banner = () => {
                     but my core strengths lie in PHP, Zend, SQL, HTML, CSS, and
                     JS, along with a fervor for the MERN stack. As a dedicated
                     problem solver, I relish complex challenges and crafting
-                    seamless web solutions. Ready to take your projects to new
-                    heights ! Let's collaborate and bring innovation to life
+                    seamless web solutions.
+                    <b>
+                      Ready to take your projects to new heights ! Let's
+                      collaborate and bring innovation to life
+                    </b>
                   </p>
                   <a href="#connect">
                     <button onClick={() => console.log("connect")}>
