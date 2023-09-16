@@ -20,18 +20,18 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Business Management System",
-      description: "ERP Development",
+      title: "Informational Type Web",
+      description: "WP Web Development",
       imgUrl: wp1Img,
     },
     {
-      title: "Business Management System",
-      description: "ERP Development",
+      title: "Informational Type Web",
+      description: "WP Web Development",
       imgUrl: wp2Img,
     },
     {
-      title: "Business Management System",
-      description: "ERP Development",
+      title: "Seedlings tracker",
+      description: "Innovative huge real-life project with hardware and software",
       imgUrl: fscdimg,
     },
     {
