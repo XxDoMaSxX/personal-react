@@ -24,7 +24,8 @@ export const Contact = () => {
   };
 
   const handleSendEmail = () => {
-    const mailtoLink = `mailto:${formDetails.email}?subject=Contact%20Form&body=First%20Name:%20${formDetails.firstName}%0D%0ALast%20Name:%20${formDetails.lastName}%0D%0AEmail:%20${formDetails.email}%0D%0APhone:%20${formDetails.phone}%0D%0AMessage:%20${formDetails.message}`;
+    const emailAddress = 'dragunasdomas@gmail.com'
+    const mailtoLink = `mailto:${emailAddress}?subject=Contact%20Form&body=First%20Name:%20${formDetails.firstName}%0D%0ALast%20Name:%20${formDetails.lastName}%0D%0AEmail:%20${formDetails.email}%0D%0APhone:%20${formDetails.phone}%0D%0AMessage:%20${formDetails.message}`;
     window.location.href = mailtoLink;
   };
 
