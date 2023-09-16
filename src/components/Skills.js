@@ -39,15 +39,15 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>PHP/Zend/MysSql/Jquery/HTML/CSS/bootstrap</h5>
+                                <h5>PHP, Zend, MysSql, Jquery, HTML, CSS, bootstrap</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>C#/.Net</h5>
+                                <h5>C#, .Net</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>MongoDb/Express/Node/React</h5>
+                                <h5>MongoDb, Express, Node, React</h5>
                             </div>
                         </Carousel>
                     </div>
